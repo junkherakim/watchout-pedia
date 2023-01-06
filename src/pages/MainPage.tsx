@@ -26,10 +26,10 @@ const MainPage: React.FC = () =>{
             <Main>
                 <Container>
                     <LatestMovieSection />
-                    {/* <NowPlayngSection />
+                    <NowPlayngSection />
                     <PopularSection />
                     <TopRateSection />
-                    <UpcomingSection /> */}
+                    <UpcomingSection />
                 </Container>
             </Main>
             <Footer />
@@ -39,3 +39,10 @@ const MainPage: React.FC = () =>{
 }
 
 export default MainPage;
+
+
+{/* 
+                    <NowPlayngSection />
+                    <PopularSection />
+                    <TopRateSection />
+                    <UpcomingSection /> */}

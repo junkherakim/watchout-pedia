@@ -22,8 +22,6 @@ const Base = styled.div`
     flex-direction: column;
     width: 100%;
     height: 100%;
-    //border: 1px;
-    //border-color: blueviolet;
 `;
 
 const ImageWrapper = styled.div`
@@ -34,7 +32,7 @@ const ImageWrapper = styled.div`
 const Image = styled.img`
   width: 100%;
   height: 100%;
-  //object-fit: cover;
+  object-fit: cover;
   border-radius: 4px; 
 `;
 
@@ -90,7 +88,6 @@ return (
                 </Average>
             </Info>
         </Base>
-
     </StyledLink>
 )
 

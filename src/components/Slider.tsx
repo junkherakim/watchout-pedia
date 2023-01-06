@@ -39,10 +39,10 @@ const DEFAULT_SETTINGS: Settings = {
     
     dots: false,
     arrows: true,
-    infinite: false,
+    infinite: true,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToShow: 5,
+    slidesToScroll: 5,
     swipe: true,
     draggable: true,
     prevArrow: (
@@ -56,7 +56,6 @@ const DEFAULT_SETTINGS: Settings = {
       </ArrowButton>
     )
   };
-
 
 
 const Slider: React.FC<Props> = ({ settings = DEFAULT_SETTINGS, children }) => {
