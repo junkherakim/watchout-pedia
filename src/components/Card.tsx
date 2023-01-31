@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from "@emotion/styled";
 import { Link } from 'react-router-dom';
-import { AiFillStar } from 'react-icons/ai';
 
 interface Props{
     linklUrl: string;
@@ -82,9 +81,8 @@ return (
                 <Title>{title}</Title>
                 <Keyword>{year}</Keyword>
                 <Average>
-                    <span>Average</span>
-                    <span>&nbsp; <AiFillStar /></span>
-                    <span>{voteAverage}</span>
+                    <span>Avg ★ </span>
+                    <span>&nbsp;{voteAverage}</span>
                 </Average>
             </Info>
         </Base>
